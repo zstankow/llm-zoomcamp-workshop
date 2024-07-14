@@ -1,6 +1,13 @@
 # RAG and LLM Workshop
 
-In this exercise we will download some documents which are the Q&A of previous zoomcamp sessions. Instead of having to search for the answer to your specific question, you can use elastic search to retrieve several similar questions and their answers. Then, using an LLM (in this case -- OpenAI, for simplicity), we can use the result of elasticsearch as context for the prompt, to provide one answer than takes all the results of elasticsearch into account. In this way we have created a quick way to get your questions answered. 
+In this exercise we will download some documents which are the Q&A of previous zoomcamp sessions. Instead of having to search for the answer to your specific question, you can use elastic search to retrieve several similar questions and their answers. Then, using an LLM (in this case -- OpenAI, for simplicity), we can use the result of elasticsearch as context for the prompt, to provide one answer than takes all the results of elasticsearch into account. In this way we have created a quick way to get your course-related questions answered. 
+
+Basics of RAG:
+
+![image](https://github.com/user-attachments/assets/3524339b-b722-4602-9b87-c968acc16c3d)
+
+
+
 
 ## Dependencies
 - Python 3.xx
